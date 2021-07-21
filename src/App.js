@@ -1,18 +1,11 @@
-
-import Counter from './Components/Counter';
-import Login from './Components/Login';
-import Myform from './Components/Myform';
+import Todo from "./Components/Todo";
+console.log(Date().length);
 function App() {
-
-
   return (
-    <div className="text-center p-6 text-white  bg-slate-800">
-      <h1 className="text-4xl capitalize ">Redux tutorile</h1>
-      <Counter/>
-      <Login/>
-      <Myform/>
+    <div className="text-center  p-6 text-white min-h-screen  bg-slate-900">
+      <h1 className="text-4xl my-6 capitalize ">Redux TodoList</h1>
+      <Todo />
     </div>
-
   );
 }
 

@@ -1,11 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
-import  counter  from './Counter/counter';
-import login from './Login/login';
+import todo from "./todoRedux/todoReducers";
 
 
-export const store =configureStore({
-    reducer:{
-        counter,
-        login
-    },
-})
+export const store = configureStore({
+  reducer: {
+    todo,
+
+  },
+});
