@@ -6,8 +6,8 @@ import {
   Reset,
 } from "../Features/Counter/counter";
 import { useSelector, useDispatch } from "react-redux";
-
 function Counter() {
+console.log("Counter components rendered")
   const counter = useSelector((state) => state.counter.value);
   const dispatch = useDispatch();
   return (
