@@ -1,20 +1,4 @@
 import { useSelector, useDispatch } from "react-redux";
-
-<<<<<<< HEAD
-import Counter from './Components/Counter';
-import Login from './Components/Login';
-import Myform from './Components/Myform';
-function App() {
-  console.log("App components rendered")
-
-  return (
-    <div className="text-center p-6 text-white  bg-slate-800">
-      <h1 className="text-4xl capitalize ">Redux tutorile</h1>
-      <Counter/>
-      <Login/>
-      <Myform/>
-    </div>
-=======
 import {
   increment,
   decrement,
@@ -72,7 +56,6 @@ function App() {
         ? "You sign in to my page now you can see everytings"
         : "To see samtings you have to login first"}
     </main>
->>>>>>> parent of 12b5a90... first versioin of redux toolkit projects
   );
 }
 
