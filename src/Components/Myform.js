@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { handelform } from "../Features/Users/user";
+import { handelform } from "../Features/user";
 function Myform() {
   const user = useSelector((state) => state.user.value);
   const counter = useSelector((state) => state.counter.value);

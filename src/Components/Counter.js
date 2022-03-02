@@ -4,7 +4,7 @@ import {
   decrement,
   incrementByAmount,
   Reset,
-} from "../Features/Counter/counter";
+} from "../Features/counter";
 import { useSelector, useDispatch } from "react-redux";
 
 function Counter() {
