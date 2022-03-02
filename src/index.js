@@ -5,7 +5,11 @@ import App from './App';
 import {createStore} from 'redux'
 import { Provider } from 'react-redux';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { store } from './Features/Store';
+=======
+import allReducers from './rerducers/index';
+>>>>>>> parent of 12b5a90... first versioin of redux toolkit projects
 =======
 import allReducers from './rerducers/index';
 >>>>>>> parent of 12b5a90... first versioin of redux toolkit projects
