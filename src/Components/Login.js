@@ -1,6 +1,6 @@
 import React from 'react'
 import { useSelector, useDispatch } from "react-redux";
-import {logOut} from '../Features/login'
+import {logOut} from '../Features/Login/login'
 
 function Login() {
   const login = useSelector((state) => state.login.value);

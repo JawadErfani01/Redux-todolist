@@ -3,8 +3,8 @@ import {
   increment,
   decrement,
   incrementByAmount,
-  Reset,
-} from "../Features/counter";
+
+} from "../Features/Counter/counter";
 import { useSelector, useDispatch } from "react-redux";
 
 function Counter() {
@@ -31,12 +31,7 @@ function Counter() {
       >
         Plase++
       </button>
-      <button
-        className="px-6 my-2  py-2  bg-blue-500 rounded-xl  "
-        onClick={() => dispatch(Reset())}
-      >
-        Reset
-      </button>
+     
     </div>
   );
 }
