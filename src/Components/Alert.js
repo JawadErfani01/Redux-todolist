@@ -17,7 +17,7 @@ function Alert() {
   return (
     <div>
       <h1
-        className={`py-1.5 px-4 w-1/2 text-black capitalize text-lg shadow-lg shadow-green-700  ${
+        className={`py-1.5 px-4 w-4/5 md:w-1/2 text-black capitalize text-lg shadow-lg shadow-green-700  ${
           message.type === "su" ? "bg-green-300" : "bg-red-400"
         } rounded-lg mx-auto `}
       >

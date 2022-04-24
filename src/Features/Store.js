@@ -5,6 +5,5 @@ import todo from "./todoRedux/todoReducers";
 export const store = configureStore({
   reducer: {
     todo,
-
   },
 });

@@ -1,17 +1,16 @@
 import { useDispatch, useSelector } from "react-redux";
 import {
   handelData,
-  removePersnoe,
   updatePersnoe,
 } from "../Features/todoRedux/todoReducers";
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef } from "react";
 import UserList from "./UserList";
 import Alert from "./Alert";
 
 function Myform() {
   const ref = useRef();
 
-  const data = useSelector((state) => state.todo.data);
+
   const edit = useSelector((state) => state.todo.edit);
   const show = useSelector((state) => state.todo.show);
   const dispatch = useDispatch();
@@ -75,7 +74,7 @@ function Myform() {
         />
       </form>
       <UserList
-        data={data}
+  
         handelUpdate={handelUpdate}
       />
     </div>
